@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	table{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+</style>
+<body>
+	<form>
+	<table border="1" rules="all">
+		<tr>
+		<td colspan="2" style="background-color: black;color: white" >Institute offers doctoral Programmes in following disciplines</td>
+	</tr>
+		<tr>
+		 <td>1.Name of department</td>
+		 <td><input list="courses">
+	           <datalist id="courses">
+		        <option>computer science enineering</option>
+		        <option>mechanical engineeering</option>
+		        <option>civil engineering</option>
+		        <option>electrical engineering</option>
+		
+	           </datalist>
+          </td>
+		</tr>
+		
+		<tr>
+			<td>2.Type of students</td>
+			<td><input type="radio" name="type" > Full time assistanship<br>
+		    <input type="radio" name="type" name="type">Full time without assistanship(sponsored)<br>
+		    <input type="radio" name="type">Full time without assistanship(self finance)<br>
+		    <input type="radio" name="type">Part time	<br>	
+                
+         </td>
+		</tr>
+		<tr>
+			<td>3.Proposed area of your research</td>
+			<td><input type="text"></td>
+		</tr>
+	     <tr>
+	
+		<td colspan="2" style="background-color: black; color: white"><b>Personal Data</b></td>
+	   </tr>
+		<tr>
+		 <td>4.Name </td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>5.Adhar Card No. </td>
+		 <td><input type="text"></td>
+		</tr>
+
+		<tr>
+
+		<td colspan="2" style="background-color: black; color: white"><b>Write date,month and year separately of your date of birth(only in no.)</b></td>>
+	</tr>
+		<tr>
+		 <td>6.Date Of Birth</td>
+		 <td><input type="select" placeholder="select" list="date"><br>
+        
+	           <datalist id="date">
+		        <option>1</option>
+		        <option>2</option>
+		        <option>3</option>
+		        <option>4</option>
+		        <option>5</option>
+		        <option>6</option>
+		        <option>7</option>
+		        <option>8</option>
+		        <option>9</option>
+		        <option>10</option>
+		        <option>11</option>
+		        <option>12</option>
+		        <option>13</option>
+		       <option>14</option>
+		       <option>15</option>
+		       <option>16</option>
+		       <option>17</option>
+		       <option>18</option>
+		       <option>19</option>
+		       <option>20</option>
+		       <option>21</option>
+		       <option>22</option>
+		       <option>23</option>
+		       <option>24</option>
+		       <option>25</option>
+		       <option>26</option>
+		       <option>27</option>
+		       <option>28</option>
+		       <option>29</option>
+		       <option>30</option>
+		       <option>31</option>
+		
+	           </datalist>
+          </td>
+		</tr>
+		<tr>
+		<td>7.Month Of Birth</td>
+		 <td><input type="select" placeholder="select" list="month"><br>
+        
+	           <datalist id="month">
+		        <option>1</option>
+		        <option>2</option>
+		        <option>3</option>
+		        <option>4</option>
+		        <option>5</option>
+		        <option>6</option>
+		        <option>7</option>
+		        <option>8</option>
+		        <option>9</option>
+		        <option>10</option>
+		        <option>11</option>
+		        <option>12</option>
+		    </datalist>
+		</td>
+	</tr>
+	<tr>
+		<td>8.Birth year</td>
+		 <td><input type="select" placeholder="select" list="year"><br>
+        
+	           <datalist id="year">
+		        <option>1997</option>
+		        <option>1998</option>
+		        <option>1999</option>
+		        <option>2000</option>
+		        <option>2001</option>
+		        <option>2002</option>
+		        <option>2003</option>
+		        
+		    </datalist>
+		</td>
+	</tr>
+	 <tr>
+			<td>9.Gender</td>
+			<td><input type="radio" name="gender"> Male<br>
+                 <input type="radio" name="gender"> Female</td>
+		</tr>
+		<tr>
+			<td>10.Marital Status</td>
+			<td><input type="radio" name="Marital"> Married<br>
+		    <input type="radio" name="Marital">Unmarried<br>
+		   	
+                
+         </td>
+		</tr>
+		<tr>
+        <td>11.Category</td>	
+       <td><input type="select" placeholder="select" list="cat"><br>
+        
+	           <datalist id="cat">
+		        <option>General</option>
+		        <option>SC</option>
+		        <option>ST</option>
+		        <option>OBC</option>
+		       
+		    </datalist>
+		</td>
+	</tr>
+	<tr>
+		<td>12.Nationality</td>
+		<td><input type="text" ></td>
+	</tr>
+	<tr>
+        <td>13.Religion</td>	
+       <td><input type="select" placeholder="select" list="rel"><br>
+        
+	           <datalist id="rel">
+		        <option>hindu</option>
+		        <option>muslim</option>
+		        <option>christian</option>
+		        <option>sikh</option>
+		       
+		    </datalist>
+		</td>
+	</tr>
+	<tr>
+			<td>14.Domicile of Odisha</td>
+			<td><input type="radio" name="Domicile"> Yes<br>
+		    <input type="radio" name="Domicile">No<br>
+		   	
+                
+         </td>
+         <tr>
+		<td>15.Mother's name</td>
+		<td><input type="text" ></td>
+	</tr>
+	<tr>
+		<td>16.Father's name</td>
+		<td><input type="text" ></td>
+	</tr>
+	<tr>
+		<td>17.Father's occupation</td>
+		<td><input type="text" ></td>
+	</tr>
+	
+	<tr>
+		<td colspan="2" style="color: red"><b>Address</b></caption></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background-color: black; color: white"><b>Address details</b></td>
+	</tr>
+		<tr>
+		 <td>18.Pressent address with phone no of residence and parents</td>
+		 <td><textarea rows="12" cols="35"></textarea><br>
+        </td>
+    </tr>
+    <tr>
+		 <td>19.Permanent address</td>
+		 <td><textarea rows="12" cols="35"></textarea><br>
+        </td>
+    </tr>
+    <tr>
+    	<td>20.Phone no of candidate</td>
+    	<td><input type="text" ></td>
+    </tr>
+    <tr>
+    	<td>21.Email id of candidate</td>
+    	<td><input type="text" ></td>
+    </tr>
+
+<tr>
+<td colspan="2" style="background-color: black; color: white"><b>Fill up all rest of the fields and submit.After submission application id will be generated.Then click on pay online(showing above fill up form)</b></td>
+</tr>
+		<tr>
+		 <td>22.SBI Collect Reference/Online payment transaction number</td>
+		 <td><input type="text"><br>
+        </td>
+    </tr>
+
+	<tr>
+		<td colspan="2" style="background-color: black; color: white"><b>Application ID is required during the process on online payment</b></td>
+	</tr>
+		<tr>
+		 <td>23.Online Payment transaction date.</td>
+		 <td><input type="date"></td>
+		</tr>
+		<tr>
+		 <td>24.Bank Name</td>
+		 <td><input type="text"></td>
+		</tr>
+	<tr>
+		<td colspan="2" style="color: red " align="left"><b>Educational Details</b></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background-color: black; color: white" allign="left"><b>Details of class 10th</b></td>
+	</tr>
+		<tr>
+		 <td>25.School Name 10th</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>26.Board Name 10th</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>27.Year of Passing  10th</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>28.Subjects of 10th</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>29.Percentage of 10th</td>
+		 <td><input type="text"></td>
+		</tr>
+	<tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" ><b>Details of class 10+2/Intermediate Examination</b></td>
+	</tr>
+		<tr>
+		 <td>30.College of 10+2/Intermediate</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>31.Board /Univ of 10+2/Intermediate</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>32.Year of Passing  10+2/Intermediate</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>33.Specialisation of 10+2/Intermediate</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>34.Percentage of 10+2/Intermediate</td>
+		 <td><input type="text"></td>
+		</tr>
+	<tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" ><b>Details of Graduation</b></td>
+	</tr>
+		<tr>
+		 <td>35. College of Graduation(BA/B.Sc/B.E./B.Tech)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>36.Name of degree</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>37.University of Graduation(BA/B.Sc/B.E./B.Tech)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>38.Year of passing Graduation(BA/B.Sc/B.E./B.Tech)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>39.Specialisation of Graduation(BA/B.Sc/B.E./B.Tech)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>40.Percentage of Graduation(BA/B.Sc/B.E./B.Tech)</td>
+			<td><input type="text" ></td>
+		</tr>
+	<tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" ><b>Details of M.Tech/M.Sc/MA</b></td>
+	</tr>
+		<tr>
+		 <td>41. College of M.Tech/M.Sc/MA</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>42.Name of degree in Postgraduation</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>43.Board/University of M.Tech/M.Sc/MA</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>44.Year of passing M.Tech/M.Sc/MA</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>45.Specialisation of M.Tech/M.Sc/MA</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>46.Percentage of M.Tech/M.Sc/MA</td>
+			<td><input type="text" ></td>
+		</tr>
+	<tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" ><b>Additional Qualification(if any)</b></td></tr>
+		<tr>
+		 <td>47. College of other qualification</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>48.Name of degree </td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>49.Board/University of (M.Sc/MA/Mtech/BA/M.Phil)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>50.Year of passing of (M.Sc/MA/Mtech/BA/M.Phil)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>51.TYpes of courses of Specialisation of (M.Sc/MA/Mtech/BA/M.Phil)</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>52.Percentage of (M.Sc/MA/Mtech/BA/M.Phil)</td>
+			<td><input type="text" ></td>
+		</tr>
+	<tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" ><b>Other course details</b></td>
+	</tr>
+		<tr>
+		 <td>53. Course name,institution,university,mark and year of passing</td>
+		 <td><textarea rows="10" cols="50"></textarea></td>
+	<tr>
+		<td colspan="2" style="color: red"><b>Research and Publication</b></td>
+	</tr>
+		<tr>
+			<td>54.List of publications in indexed journal(Give no of publication)</td>
+			<td><textarea rows="7" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td>55.List of publications in conferences(Give no of publication)</td>
+			<td><textarea rows="7" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td>56.List of books and monographs(specify no.)</td>
+			<td><textarea rows="7" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td>57.List of Patent/Copyrights(Specify no.)</td>
+			<td><textarea rows="7" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td>58.Guidance at master level(specify no. only)</td>
+			<td><input type="text" ></td>
+		</tr>
+		<tr>
+          <td colspan="2" style="color: red " align="left"><b>Experience</b></td>
+      </tr>
+      <tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" ><b>Experience of last Employment (if Any)</b></td>
+	</tr>
+		<tr>
+		 <td>59.Organisation name 1</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>60.Designation 1</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>61.Nature of experience 1</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>62.Form date 1</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+		 <td>63.To Date 1</td>
+		 <td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>64.Duration in months 1</td>
+			<td><input type="text" ></td>
+		</tr>
+		<tr>
+	<td colspan="2" style="background-color:black; color:white; "><b>Responsible persons,not related to applicant but closely aquainted with applicants accademic and professional work,and provide his/her phone no and email address</b></td>
+</tr>
+<tr>
+   <td colspan="2" style="color: red"><b>References</b></td>
+</tr>
+<tr>
+	<td colspan="2" style="background-color: black;color: white"><b>References</b></td>
+</tr>
+	<tr>
+		<td>65.Reference 1</td>
+		<td><textarea rows="7" cols="55"></textarea></td>
+	</tr>
+	<tr>
+		<td>66.Reference 2</td>
+		<td><textarea rows="7" cols="55"></textarea></td>
+	</tr>
+	<tr>
+		<td>67.Reference 3</td>
+		<td><textarea rows="7" cols="55"></textarea></td>
+	</tr>
+	<tr>
+		
+		<td colspan ="2" style="background-color: black; color: white; align-content: left" >
+<b>Describe your personal goals and how your study in iit will help you achieve these goals.</b></td>
+</tr>
+			<tr>
+				<td>68.Statement of purpose</td>
+				<td><textarea rows="7" cols="55"></textarea></td>
+			</tr>
+			<tr>
+				<td>69.How do you know about this programme</td>
+				<td><input list="know">
+	           <datalist id="know">
+		        <option>friends</option>
+		        <option>relatives</option>
+		        <option>social media</option>
+		        <option>newspaper</option>
+		
+	           </datalist></td>
+			
+			</tr>
+	
+	<tr>
+	 <td colspan="2" ><center><input type="submit" value="Submit" ></center></td>
+	</tr>
+
+	</table>
+</form>
+
+</body>
+</html>
